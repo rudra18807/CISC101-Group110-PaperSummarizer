@@ -1,5 +1,11 @@
-Normalize sections: Map synonyms to canonical names (e.g., “Background” → “Introduction”), preserve order.
+Inputs: Paper text sections, ordered section list, audience.
 
-Detect issues: Identify missing, empty, and <50-word sections; add to Checks & Warnings.
+Responsibilities:
 
-Audience profile: Load vocabulary and explanation depth tailored to the selected audience.
+Section normalization: Canonical mapping, order lock.
+
+Integrity checks: Detect missing, empty, and <50-word sections.
+
+Audience profiling: Set vocabulary level and explanation depth.
+
+Outputs: Canonical section array, issue log, audience profile.
