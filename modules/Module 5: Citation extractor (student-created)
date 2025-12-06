@@ -1,5 +1,9 @@
-Extract mentions: Collect in-text citation markers; map to references.
+Responsibilities:
 
-Highlight key works: List up to 5 most frequently cited or central references; do not invent metadata.
+Parse citations: Identify in-text markers (e.g., [12], (Smith, 2021)).
 
-Flag gaps: Note unmapped or incomplete citations.
+Map references: Link markers to reference section entries where possible.
+
+Key citations: Surface top 5 central references; flag unmapped markers.
+
+Outputs: Citation summary list, mapping notes, flags.
