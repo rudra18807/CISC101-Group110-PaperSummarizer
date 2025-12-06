@@ -1,1 +1,5 @@
+Normalize sections: Map synonyms to canonical names (e.g., “Background” → “Introduction”), preserve order.
 
+Detect issues: Identify missing, empty, and <50-word sections; add to Checks & Warnings.
+
+Audience profile: Load vocabulary and explanation depth tailored to the selected audience.
