@@ -1,5 +1,11 @@
-Process each section in order: Extract text → summarize (≤150 words) → apply constraints.
+Inputs: Canonical section array, audience profile.
 
-Grounding: Use phrasing that ties back to the provided text; no external facts.
+Responsibilities:
 
-Status flags: Attach issues to each section entry (e.g., “Short,” “Empty,” “Chunked”).
+Per-section summarize: ≤150 words; grounded; conservative wording.
+
+Status flags: Short/empty/chunked indicators.
+
+Evidence anchors: Brief references to source phrases or figure identifiers (no external citations).
+
+Outputs: Section summaries table rows, per-section flags.
