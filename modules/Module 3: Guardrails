@@ -1,7 +1,13 @@
-Missing/empty sections: Explicitly list and mark.
+Missing/empty sections: Elevate these to the Checks & Warnings.
 
-<50-word sections: Warn; produce minimal summaries acknowledging insufficiency.
+<50-word sections: Produce minimal summaries that acknowledge insufficiency.
 
-Hallucination mitigation: Cross-check language for inferred claims; prefer conservative wording.
+Hallucination mitigation: Disallow speculative claims; use “the text states…” style when needed.
 
-Long-paper chunking: Split long sections into coherent chunks; summarize per chunk; merge conservatively.
+Long-paper chunking (PS2):
+
+Chunk criteria: If a section exceeds context capacity, split by natural boundaries (subheadings, paragraphs).
+
+Local summaries: Summarize chunks in order.
+
+Constrained merge: Combine chunk summaries without adding new claims.
