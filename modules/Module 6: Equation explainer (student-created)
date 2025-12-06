@@ -1,3 +1,7 @@
-Detect equations: Identify formulas/symbols; render in LaTeX.
+Responsibilities:
 
-Explain variables: Provide meanings and units; outline equation role in the paper.
+Equation detection: Collect equations and symbols across sections.
+
+Explanations: Provide plain-language descriptions; define variables and units; briefly state role/purpose.
+
+Outputs: Equation list with LaTeX and variable definitions.
