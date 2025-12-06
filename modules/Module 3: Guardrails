@@ -1,1 +1,7 @@
+Missing/empty sections: Explicitly list and mark.
 
+<50-word sections: Warn; produce minimal summaries acknowledging insufficiency.
+
+Hallucination mitigation: Cross-check language for inferred claims; prefer conservative wording.
+
+Long-paper chunking: Split long sections into coherent chunks; summarize per chunk; merge conservatively.
