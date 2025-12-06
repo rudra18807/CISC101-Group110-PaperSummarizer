@@ -1,4 +1,6 @@
-Inputs: Canonical section array, audience profile.
+Change Log 2025/12/05: Added Summary Levels
+
+Inputs: Canonical section array, audience profile, summary level.
 
 Responsibilities:
 
@@ -7,5 +9,13 @@ Per-section summarize: ≤150 words; grounded; conservative wording.
 Status flags: Short/empty/chunked indicators.
 
 Evidence anchors: Brief references to source phrases or figure identifiers (no external citations).
+
+Asks for Summary Level: 
+  summary_level = "short"
+  
+  1–2 sentence summary per section
+  summary_level = "detailed"
+  
+  A short paragraph plus a bullet list of 3–5 key points for each section
 
 Outputs: Section summaries table rows, per-section flags.
