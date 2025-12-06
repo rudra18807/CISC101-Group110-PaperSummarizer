@@ -1,1 +1,5 @@
+Process each section in order: Extract text → summarize (≤150 words) → apply constraints.
 
+Grounding: Use phrasing that ties back to the provided text; no external facts.
+
+Status flags: Attach issues to each section entry (e.g., “Short,” “Empty,” “Chunked”).
